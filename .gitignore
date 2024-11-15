@@ -1,5 +1,6 @@
 disk-image/packer
 disk-image/parsec/parsec-image
+disk-image/packer_cache
 gem5/build
 *.log
 __pycache__/
