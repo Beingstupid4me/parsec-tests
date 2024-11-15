@@ -47,7 +47,7 @@ gem5_repo = Artifact.registerArtifact(
     ''',
     typ = 'git repo',
     name = 'gem5',
-    path =  'gem5/',
+    path =  '/home/amartya/Desktop/Code/gem5',
     cwd = './',
     documentation = 'Cloned gem5 from the Google repository using branch release-staging-v20.0.0.0'
 )
