@@ -1,0 +1,6 @@
+disk-image/packer
+disk-image/parsec/parsec-image
+gem5/build
+*.log
+__pycache__/
+*.pyc
