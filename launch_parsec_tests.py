@@ -34,7 +34,7 @@ parsec_repo = Artifact.registerArtifact(
     git clone https://github.com/bamos/parsec-benchmark.git;''',
     typ = 'git repo',
     name = 'parsec_repo',
-    path =  './disk-image/parsec-benchmark/parsec-benchmark/',
+    path =  './disk-image/parsec/parsec-benchmark/',
     cwd = './disk-image/',
     documentation = '''Main repo to copy PARSEC source to the disk-image.'''
 )
