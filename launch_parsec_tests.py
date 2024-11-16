@@ -119,7 +119,7 @@ if __name__ == "__main__":
             return 
         return gem5Run.createFSRun(
             'parsec classic memory tests with gem5-20',    
-            'gem5/build/X86/gem5.opt',
+            '/home/amartya/Desktop/Code/gem5/build/X86/gem5.opt',
             'configs-parsec-tests/run_parsec.py',
             f'''results/run_parsec/{bench}/{size}/{cpu}''',
             gem5_binary, gem5_repo, experiments_repo,
