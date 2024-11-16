@@ -87,16 +87,16 @@ linux_repo = Artifact.registerArtifact(
     mv linux linux-stable''',
     typ = 'git repo',
     name = 'linux-stable',
-    path =  'linux-stable/',
-    cwd = './',
+    path =  '/home/amartya/Desktop/Code/linux_stable/',
+    cwd = '../',
     documentation = 'Linux kernel source code repo'
 )
 
 linux_binary = Artifact.registerArtifact(
     name = 'vmlinux-4.19.83',
     typ = 'kernel',
-    path = 'linux-stable/vmlinux-4.19.83',
-    cwd = 'linux-stable/',
+    path = '/home/amartya/Desktop/Code/linux_stable/vmlinux-4.19.83',
+    cwd = '/home/amartya/Desktop/Code/linux_stable/',
     command = '''
     cp ../config.4.19.83 .config;
     make -j8;
