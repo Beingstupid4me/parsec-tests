@@ -56,8 +56,8 @@ m5_binary = Artifact.registerArtifact(
     command = 'scons build/x86/out/m5',
     typ = 'binary',
     name = 'm5',
-    path =  'gem5/util/m5/build/x86/out/m5',
-    cwd = 'gem5/util/m5',
+    path =  '/home/amartya/Desktop/Code/gem5/util/m5/build/x86/out/m5',
+    cwd = '/home/amartya/Desktop/Code/gem5/util/m5',
     inputs = [gem5_repo,],
     documentation = 'm5 utility'
 )
