@@ -76,8 +76,8 @@ gem5_binary = Artifact.registerArtifact(
     command = 'scons build/X86/gem5.opt -j12',
     typ = 'gem5 binary',
     name = 'gem5',
-    cwd = 'gem5/',
-    path =  'gem5/build/X86/gem5.opt',
+    cwd = '/home/amartya/Desktop/Code/gem5/',
+    path =  '/home/amartya/Desktop/Code/gem5/build/X86/gem5.opt',
     inputs = [gem5_repo,],
     documentation = 'gem5 binary'
 )
